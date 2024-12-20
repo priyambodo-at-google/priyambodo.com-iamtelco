@@ -1,0 +1,18 @@
+application:
+  name: "Ask Questions to Your Financial Database"
+  layout: "wide"
+
+gcp:
+  project_id: "work-mylab-machinelearning"
+  region: "us-central1"
+  use_service_account: False
+  service_account_path: "apikey.json"
+
+llm:
+  model_name: "text-bison@001"
+  model_region: "us-central1"
+  temperature: "0.1"
+  top_k: "40"
+  top_p: "0.8"
+  token_limit: "256"
+  max_token_limit: 1024

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iamtelco-priyambodo-com-v1-0"
+version = "1.0"
+description = ""
+authors = ["Doddi Priyambodo <doddi@bicarait.com>"]
+readme = "README.md"
+packages = [{include = "iamtelco"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.29.0"
+google-cloud-aiplatform = "^1.38.1"
+google-cloud-logging = "^3.9.0"
+langchain = "0.0.235"
+sqlparse = "0.4.4"
+sqlalchemy = "1.4.49"
+google-cloud-documentai = "^2.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

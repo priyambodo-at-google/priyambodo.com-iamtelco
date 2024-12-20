@@ -1,0 +1,16 @@
+Agent: Thank you for calling Telco Support. My name is Nadia. How can I help you today?
+Customer: I'm having trouble with my new cellular package. I bought it yesterday, and it's still not active.
+Agent: I'm so sorry to hear that. May I please have your phone number so I can check your account?
+Customer: It's 555-123-4567. I'm frustrated because I need my phone to work.
+Agent: I understand your frustration. I'll look into your account and do everything I can to get this resolved quickly.
+Agent: There seems to be a delay in the activation process. I'm escalating this to our technical team for investigation.
+Customer: How long will that take?
+Agent: I'm working to expedite the process. I'll reach out to our team and get an estimated time for resolution.
+Agent: Our team is working on resolving the activation issue now. They estimate it should be active within the next 30 minutes.
+Customer: That's inconvenient, but I appreciate you working on it.
+Agent: I apologize for the inconvenience and I'll offer you a credit for it. I'll also send you a text message as soon as the package is activated.
+Customer: Okay, but I expect this to be fixed within the next 30 minutes.
+Agent: Absolutely. I'll personally follow up to make sure it's resolved. Is there anything else I can help you with today?
+Customer: No, that's all.
+Agent: Thank you for your understanding. I sincerely apologize for the trouble this has caused. Please don't hesitate to reach out if you have any further questions or concerns. Have a great day.
+Customer: Thanks.

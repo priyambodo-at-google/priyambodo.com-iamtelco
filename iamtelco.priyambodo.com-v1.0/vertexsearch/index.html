@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A to a Technical Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Q&A to a Cisco Technical Document</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>These are some sample of questions that you can ask</h2>
+            <p>Ask any questions to this <a href="https://storage.googleapis.com/public-bucket-in-jakarta-bydoddi/iamtelco-priyambodo-com/datasheet-c78-740296.pdf" target="_blank">Cisco NCS 540L technical document</a> (uploaded in Vertex Search): <br><br>
+            1. What is the operating temperature range? <br>
+            2. What are the different port configurations supported? <br>
+            3. What are the software options for NCS540? <br>
+            4. Compare different models of NCS540? <br>
+            </p>
+        </section>
+
+        <section>
+            <h2>Search and summarize the answer of your question</h2>
+            <p>Enter your question here: 
+
+                <!-- Widget JavaScript bundle -->
+                <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+                <!-- Search widget element is not visible by default -->
+                <gen-search-widget
+                configId="480f378a-5e25-42fa-ac6c-7b2e1d726ff8"
+                triggerId="searchWidgetTrigger">
+                </gen-search-widget>
+
+                <!-- Element that opens the widget on click. It does not have to be an input -->
+                <input placeholder="Search here" id="searchWidgetTrigger" />
+
+            </p>
+        </section>
+
+        <iframe src="https://storage.googleapis.com/public-bucket-in-jakarta-bydoddi/iamtelco-priyambodo-com/datasheet-c78-740296.pdf" width="800" height="600"></iframe>
+
+    </div>
+
+    <footer>
+        <p>&copy; IamTelco! Powered by Google Cloud Gen-AI. Maintained by Doddi Priyambodo (priyambodo@google.com | doddi@bicarait.com)</p>
+    </footer>
+</body>
+</html>
